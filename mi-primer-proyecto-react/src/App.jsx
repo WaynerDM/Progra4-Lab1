@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import SaludoJohana from './Components/Saludo.Johana'
 import SaludosWayner from './Components/SaludosWayner'
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
       <SaludosWayner />
 
       <div className="ticks"></div>
+
+      <SaludoJohana />
 
       <section id="next-steps">
         <div id="docs">

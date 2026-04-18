@@ -1,0 +1,33 @@
+.saludo {
+  border: 2px solid #008080;
+  border-radius: 8px;
+  background: #f0f8ff;
+  color: #004d40;
+  padding: 1rem;
+  max-width: 380px;
+  margin: 1rem auto;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.saludo__title {
+  margin: 0 0 0.4rem;
+  font-size: 1.6rem;
+}
+
+.saludo__extra {
+  margin: 0 0 1.1rem;
+  font-size: 1rem;
+  color: #00695c;
+}
+
+.saludo__box {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.saludo__box input {
+  border: 1px solid #00695c;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
